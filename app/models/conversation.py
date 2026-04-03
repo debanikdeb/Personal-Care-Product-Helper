@@ -1,0 +1,1 @@
+# TODO: For conversation model to store the conversation history, we can use a list of messages, where each message is a dictionary containing the role (user or assistant) and the content of the message. This allows us to maintain the context of the conversation and provide relevant responses based on previous interactions.

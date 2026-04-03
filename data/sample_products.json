@@ -1,0 +1,212 @@
+[
+  {
+    "category": "skin",
+    "name": "Hydra-Blast Serum",
+    "brand": "DewyLabs",
+    "price": 1200,
+    "benefits": "Deep hydration"
+  },
+  {
+    "category": "skin",
+    "name": "SPF 50 Sun Shield",
+    "brand": "Solaris",
+    "price": 850,
+    "benefits": "UV protection"
+  },
+  {
+    "category": "skin",
+    "name": "Night Repair Cream",
+    "brand": "LunaSkin",
+    "price": 1500,
+    "benefits": "Cell regeneration"
+  },
+  {
+    "category": "skin",
+    "name": "Vitamin C Brightener",
+    "brand": "GlowCo",
+    "price": 950,
+    "benefits": "Evens skin tone"
+  },
+  {
+    "category": "skin",
+    "name": "Clay Detox Mask",
+    "brand": "EarthPure",
+    "price": 600,
+    "benefits": "Pore tightening"
+  },
+  {
+    "category": "eye",
+    "name": "Infinite Length Mascara",
+    "brand": "LashLift",
+    "price": 550,
+    "benefits": "Volumizing"
+  },
+  {
+    "category": "eye",
+    "name": "Midnight Kohl Liner",
+    "brand": "Noir",
+    "price": 300,
+    "benefits": "Smudge-proof"
+  },
+  {
+    "category": "eye",
+    "name": "Sunset Palette",
+    "brand": "Chroma",
+    "price": 1800,
+    "benefits": "High pigment"
+  },
+  {
+    "category": "eye",
+    "name": "Brow Defining Gel",
+    "brand": "ArchArts",
+    "price": 450,
+    "benefits": "Natural hold"
+  },
+  {
+    "category": "eye",
+    "name": "Cooling Eye Gel",
+    "brand": "Revive",
+    "price": 700,
+    "benefits": "Reduces puffiness"
+  },
+  {
+    "category": "lips",
+    "name": "Glow Matte Lipstick",
+    "brand": "Aura Beauty",
+    "price": 499,
+    "benefits": "Long-lasting, hydrating, vibrant color"
+  },
+  {
+    "category": "lips",
+    "name": "Silk Gloss",
+    "brand": "ShineOn",
+    "price": 350,
+    "benefits": "Non-sticky shine"
+  },
+  {
+    "category": "lips",
+    "name": "Velvet Lip Liner",
+    "brand": "Contour",
+    "price": 250,
+    "benefits": "Defines shape"
+  },
+  {
+    "category": "lips",
+    "name": "Berry Balm",
+    "brand": "Nurture",
+    "price": 150,
+    "benefits": "24hr moisture"
+  },
+  {
+    "category": "lips",
+    "name": "Liquid Suede Stain",
+    "brand": "Vivid",
+    "price": 650,
+    "benefits": "Waterproof"
+  },
+  {
+    "category": "nails",
+    "name": "Gel Tech Polish",
+    "brand": "NailVibe",
+    "price": 400,
+    "benefits": "Chip-resistant"
+  },
+  {
+    "category": "nails",
+    "name": "Quick Dry Top Coat",
+    "brand": "Flash",
+    "price": 300,
+    "benefits": "Glossy finish"
+  },
+  {
+    "category": "nails",
+    "name": "Cuticle Oil Revive",
+    "brand": "Botanics",
+    "price": 200,
+    "benefits": "Softens cuticles"
+  },
+  {
+    "category": "nails",
+    "name": "Neon Summer Collection",
+    "brand": "PopColor",
+    "price": 1200,
+    "benefits": "Vibrant hues"
+  },
+  {
+    "category": "nails",
+    "name": "Nail Strengthener",
+    "brand": "HardRock",
+    "price": 500,
+    "benefits": "Prevents breakage"
+  },
+  {
+    "category": "face",
+    "name": "Silk Finish Foundation",
+    "brand": "Canvas",
+    "price": 2200,
+    "benefits": "Full coverage"
+  },
+  {
+    "category": "face",
+    "name": "Invisible Blur Primer",
+    "brand": "Smooth",
+    "price": 900,
+    "benefits": "Minimizes pores"
+  },
+  {
+    "category": "face",
+    "name": "Radiant Concealer",
+    "brand": "Hide&Seek",
+    "price": 750,
+    "benefits": "Brightens undereyes"
+  },
+  {
+    "category": "face",
+    "name": "Peach Bloom Blush",
+    "brand": "Rosy",
+    "price": 550,
+    "benefits": "Natural flush"
+  },
+  {
+    "category": "face",
+    "name": "Setting Mist",
+    "brand": "LockIt",
+    "price": 800,
+    "benefits": "12hr makeup hold"
+  },
+  {
+    "category": "hair",
+    "name": "Argan Repair Oil",
+    "brand": "SilkStrand",
+    "price": 1100,
+    "benefits": "Frizz control"
+  },
+  {
+    "category": "hair",
+    "name": "Volume Boost Shampoo",
+    "brand": "Lift",
+    "price": 600,
+    "benefits": "Adds body"
+  },
+  {
+    "category": "hair",
+    "name": "Keratin Mask",
+    "brand": "DeepCare",
+    "price": 1300,
+    "benefits": "Strengthens hair"
+  },
+  {
+    "category": "hair",
+    "name": "Sea Salt Spray",
+    "brand": "BeachVibe",
+    "price": 450,
+    "benefits": "Texturizing"
+  },
+  {
+    "category": "hair",
+    "name": "Heat Protectant",
+    "brand": "Shield",
+    "price": 550,
+    "benefits": "Thermal safety"
+  }
+]
