@@ -17,10 +17,10 @@ try:
     # Extract products
     products = extract_product_cards(soup, 'https://www.myntra.com/personal-care?f=Categories%3ALipstick')
     
-    print(f'✅ Extracted {len(products)} products')
+    print(f'Extracted {len(products)} products')
     for i, prod in enumerate(products[:5]):
         print(f'{i+1}. {prod.get("product_name")} - {prod.get("brand")} - Rating: {prod.get("rating")}')
         
 except Exception as e:
-    print(f'❌ Error: {e}')
+    print(f' Error: {e}')
     traceback.print_exc()
