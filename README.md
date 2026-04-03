@@ -464,6 +464,8 @@ POST /api/v1/extractor/scrape
 * Add **RAG (vector search)** for scalable retrieval
 * Use **Redis** for session memory
 * Implement **LangGraph for tool orchestration**
+* Implement **S3** for persistent file upload
+* Add accessible downloadable link for CSV
 * Add **frontend UI**
 * Deploy on **AWS with CI/CD**
 
