@@ -324,9 +324,16 @@ pip install -r requirements.txt
 Create a `.env` file:
 
 ```env
+ENV=environment
+FRONTEND_URL=your_local_frontend_url
+BACKEND_URL=your_local_backend_url
 GROQ_API_KEY=your_api_key
 DATABASE_URL=postgresql+asyncpg://user:password@localhost:5432/dbname
-SUPPORT_CONTACT=+91-XXXXXXXXXX
+LANGCHAIN_ENDPOINT=langchain_endpoint
+LANGCHAIN_API_KEY=your_api_key
+LANGCHAIN_PROJECT=project_name
+LANGCHAIN_TRACING_V2=true/false
+TEMP_PATH=dir_name
 ```
 
 ---
@@ -372,7 +379,7 @@ GET /
 ### 🔹 Chatbot
 
 ```
-POST /api/v1/chat/chat
+POST /api/v1/chatbot/chat
 ```
 
 #### Request:
@@ -401,6 +408,30 @@ POST /api/v1/chat/chat
 POST /api/v1/products/populate-products
 ```
 
+### 🔹 Scrape Product Details & Store in CSV
+
+```
+POST /api/v1/extractor/scrape
+```
+#### Request:
+
+```json
+{
+  "url": "https://www.myntra.com/personal-care?f=Categories%3ALipstick",
+  "category_name": "lipstick"
+}
+```
+
+#### Response:
+
+```json
+{
+  "status": "success",
+  "products_count": "...",
+  "csv_download_url": "/downloads/extracted_products.csv",
+  "pages_scraped": 5
+}
+```
 ---
 
 ## 🧠 Chatbot Logic
@@ -418,27 +449,6 @@ POST /api/v1/products/populate-products
 
 ---
 
-## 📊 Scraping Module
-
-Located in:
-
-```
-/scraper/
-```
-
-To run scraping script:
-
-```bash
-python scraper/myntra_scraper.py
-```
-
-Output:
-
-```
-data/products.csv
-```
-
----
 
 ## ⚠️ Notes & Limitations
 
